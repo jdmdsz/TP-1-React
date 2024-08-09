@@ -1,5 +1,11 @@
 export default function App() {
-    return (
-        <div>Hello World</div>
-    )
+    function calcularPrecoTotal(precoProduto,quantidadeComprada){
+        let precoTotal = precoProduto * quantidadeComprada;
+        return precoTotal;    
+    }
+    
+    let precoInformado = prompt("Informe o preco: ");
+    let quantidadeInformada = prompt("Informe a quantidade: ");
+    alert(`O preco total é: ${calcularPrecoTotal(precoInformado, quantidadeInformada)}`);   
 }
+

@@ -1,0 +1,29 @@
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .item-galeria {
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .item-galeria:hover {
+    transform: scale(1.05);
+  }
+  
+  .item-galeria img {
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .item-galeria p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  

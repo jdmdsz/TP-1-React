@@ -1,5 +1,7 @@
+import Portfólio from "./Portfólio";
+
 export default function App() {
     return (
-        <div>Hello World</div>
+        <div><Portfólio/></div>
     )
 }

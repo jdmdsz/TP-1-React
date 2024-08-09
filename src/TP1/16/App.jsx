@@ -1,5 +1,7 @@
+import ListaProdutos from "./ListaProdutos";
+
 export default function App() {
     return (
-        <div>Hello World</div>
+        <div><ListaProdutos/></div>
     )
 }

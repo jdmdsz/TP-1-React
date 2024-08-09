@@ -1,0 +1,32 @@
+.cartao-perfil {
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: auto;
+  }
+  
+  .perfil-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .perfil-nome {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .perfil-biografia {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
